@@ -25,17 +25,19 @@ header img {
 
 }
 .cd{
-  height: 200px;
-  width: 175px;
+  height: 300px;
+  width: 230px;
   border: 1px solid white;
+  background-color: #2E3A46;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
+
 }
 .cd img {
-  height: 60%;
+  height: 50%;
 }
 .cd-info{
   text-align: center;
