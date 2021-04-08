@@ -16,6 +16,10 @@ header{
 header img {
   height: 60px;
 }
+main input{
+  margin-left: 30px;
+  margin-top: 20px;
+}
 .cd-wrapper{
   display: flex;
   flex-wrap: wrap;
