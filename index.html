@@ -15,41 +15,19 @@
   </header>
   <main>
 <section class="cd-wrapper" id="app">
-  <div class="cd">
-<img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
+  <div class="cd" v-for="album in albums">
+<img v-bind:src="album.poster" alt="">
 <div class="cd-info">
-  <h3>New Jersey</h3>
-  <h5>Bon Jovi <br> 1988</h5>
+
+  <h3>{{title}}</h3>
+  <h5>{{author}}</h5>
+  <h5>{{year}}</h5>
+
+
 
 </div>
   </div>
-  <div class="cd">
 
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
-  <div class="cd">
-
-  </div>
 </section>
   </main>
 <script src="myscript.js" charset="utf-8"></script>
