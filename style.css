@@ -15,10 +15,13 @@ header{
 }
 header img {
   height: 60px;
+  margin-left: 25px;
 }
-main input{
+main label{
   margin-left: 30px;
   margin-top: 20px;
+  margin-right: 20px;
+  color: #fff;
 }
 .cd-wrapper{
   display: flex;
@@ -28,6 +31,9 @@ main input{
   min-height: 100vh;
   padding-top: 100px;
 
+}
+.menu{
+  flex-basis: 100%;
 }
 .cd{
   height: 300px;

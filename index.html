@@ -16,10 +16,18 @@
 <img src="logo.png" alt="">
   </header>
   <main>
-    <input type="text" name="" value="">
 <section class="cd-wrapper" id="app">
-  <div class="cd" v-for="album in albums">
-<img v-bind:src="album.poster" alt="">
+  <div class="menu">
+    <label for="search">Choose your genre</label>
+    <select id="search" class="" name="" v-model="selected">
+      <option value="">All</option>
+      <option v-for="category in categories">{{category}}</option>
+
+    </select>
+
+  </div>
+  <div class="cd" v-for="album in albums" v-if="(album.genre == selected) || (selected == 'All') || (selected == '')">
+<img v-bind:src="album.poster" alt="album.title">
 <div class="cd-info">
 
   <h3>{{album.title}}</h3>
